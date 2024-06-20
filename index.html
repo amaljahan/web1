@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
+        <title>facebook</title>
+        <script src="https://kit.fontawesome.com/0886cbd150.js" crossorigin="anonymous"></script> <!--line nbr 69-->
+    </head>
+        <link rel="stylesheet" href="style.css">
+    <bodY>
+        <nav><!--nav tag is used to navigate different links and also the screen reader can read it.-->
+            <div class="nav-left"> <!--the div tag is used to divide or seperate it form the rest of the group.--> 
+                <img src="socialbook_img/images/logo.png" class="logo">
+                <ul>
+                    <li> <img src="socialbook_img/images/notification.png"></li>
+                    <li> <img src="socialbook_img/images/inbox.png"></li>
+                    <li> <img src="socialbook_img/images/video.png  "></li>
+                </ul>
+            </div>
+           <div class="nav-right">
+
+                <div class="search-box"><!--div.search-box==> will generate full step with div tag and class.-->
+                    <img src="socialbook_img/images/search.png" > 
+                    <input type="text" placeholder="Search">
+                </div>   
+                <div class="nav-user-icon online" onclick="settingsMenuToggle()" id="btn-img"><!--button action-->
+                        <img src="socialbook_img/images/profile-pic.png" alt="profile icon" >
+                </div> 
+            </div> 
+  <!------------------------settings-menu----------------------------->
+                
+           
+            <div class="settings-menu" id="settings-menu">
+                <div class="settings-menu-inner"><!--the new div is created to add pading without disturbing css class .settings-menu.  -->
+                    <div class="user-profile">
+                        <img src="socialbook_img/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <a href="#">See your profile</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="user-profile">
+                        <img src="socialbook_img/images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help as to improve the new design</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="settings-links">
+                        <img src="socialbook_img/images/setting.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="socialbook_img/images/arrow.png" 
+                            width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="socialbook_img/images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="socialbook_img/images/arrow.png" 
+                            width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="socialbook_img/images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="socialbook_img/images/arrow.png" 
+                            width="10px"></a>
+                    </div>
+                    <div class="settings-links">
+                        <img src="socialbook_img/images/logout.png" class="settings-icon">
+                        <a href="#">Logout <img src="socialbook_img/images/arrow.png" 
+                            width="10px"></a>
+                    </div>
+
+
+                </div>
+                
+            </div>
+            
+
+        </nav>
+
+        <div class="container">
+        <!--------------------left-sidebar--------------------->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="socialbook_img/images/news.png">Latest News</a>
+                    <a href="#"><img src="socialbook_img/images/friends.png">Friends</a>
+                    <a href="#"><img src="socialbook_img/images/group.png">Group</a>
+                    <a href="#"><img src="socialbook_img/images/marketplace.png">Market Place</a>
+                    <a href="#"><img src="socialbook_img/images/watch.png">Watch</a>
+                    <a href="#">See more</a>
+                </div>
+                <div class="shortcuts-links">
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="socialbook_img/images/shortcut-1.png">Web Developers</a>
+                    <a href="#"><img src="socialbook_img/images/shortcut-2.png">Web Design</a>
+                    <a href="#"><img src="socialbook_img/images/shortcut-3.png">Full Stack Development</a>
+                    <a href="#"><img src="socialbook_img/images/shortcut-4.png">Website Experts</a>
+                </div>
+            </div>
+
+
+            
+        <!-- ------------------main-content--------------------->
+            <div class="main-content">
+
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="socialbook_img/images/upload.png">
+                        <p>Post Story</p>
+                    </div>
+
+                    <div class="story story2">
+                        <img src="socialbook_img/images/member-1.png">
+                        <p>Allison</p>
+                    </div>
+
+                    <div class="story story3">
+                        <img src="socialbook_img/images/member-2.png">
+                        <p>Jackson</p>
+                    </div>
+
+                    <div class="story story4">
+                        <img src="socialbook_img/images/member-3.png">
+                        <p>Samana</p>
+                    </div>
+
+                    <div class="story story5">
+                        <img src="socialbook_img/images/member-4.png">
+                        <p>John Doe </p>
+                    </div>
+                </div>
+
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="socialbook_img/images/profile-pic.png">
+                        <div>
+                            <p>John Nicholson</p>
+                            <small>Public  <i class="fa-solid fa-caret-down"></i></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="what's on your mind,John?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="socialbook_img/images/live-video.png" >Live video</a>
+                            <a href="#"><img src="socialbook_img/images/photo.png" >Photo/video</a>
+                            <a href="#"><img src="socialbook_img/images/feeling.png" >Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>  <!--this is for the vertical 3 dot.-->
+                    </div>
+                    
+                    <p class="post-text">Lorem <span> dolor sit amet </span>
+                        consectetur adipisicing elit.
+                         Quam, voluptates inventore! 
+                         Nisi iste deserunt natus 
+                         temporibus non illo ducimus 
+                         vero, velit provident magni
+                          quos assumenda sint! Quidem 
+                          illo rem consectetur! <a href="#">#link for that</a>
+                          <a href="#">#another link</a></p>
+                          <img src="socialbook_img/images/feed-image-1.png" class="post-img">
+
+                          <div class="post-row">
+                            <div class="actity-icons">
+                                <div><img src="socialbook_img/images/like-blue.png" >120</div>
+                                <div><img src="socialbook_img/images/comments.png" >40</div>
+                                <div><img src="socialbook_img/images/share.png" >200</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="socialbook_img/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                          </div>
+                </div>
+
+
+                  <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>July 15 2021, 1:40 am</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>  <!--this is for the vertical 3 dot.-->
+                    </div>
+                    
+                    <p class="post-text">...................Lorem <span> dolor sit amet </span>
+                        consectetur adipisicing elit.
+                         Quam, voluptates inventore! 
+                         Nisi iste deserunt natus 
+                         temporibus non........ illo ducimus 
+                         vero, velit provident magni
+                          quos assumenda sint! Quidem 
+                          illo rem consectetur! <a href="#">#link hittt</a>
+                          <a href="#">#abxd</a></p>
+                          <img src="socialbook_img/images/feed-image-2.png" class="post-img">
+
+                          <div class="post-row">
+                            <div class="actity-icons">
+                                <div><img src="socialbook_img/images/like-blue.png" >133</div>
+                                <div><img src="socialbook_img/images/comments.png" >140</div>
+                                <div><img src="socialbook_img/images/share.png" >500</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="socialbook_img/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                          </div>
+                </div>
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>  <!--this is for the vertical 3 dot.-->
+                    </div>
+                    
+                    <p class="post-text">Lorem <span> dolor sit amet </span>
+                        consectetur adipisicing elit.
+                         Quam,afsdddddddddddent magni
+                          quos assumenda sint! Quidem 
+                          illo rem consectetur! <a href="#">#ewethat</a>
+                          <a href="#">#anotherink</a></p>
+                          <img src="socialbook_img/images/feed-image-3.png" class="post-img">
+
+                          <div class="post-row">
+                            <div class="actity-icons">
+                                <div><img src="socialbook_img/images/like-blue.png" >120</div>
+                                <div><img src="socialbook_img/images/comments.png" >40</div>
+                                <div><img src="socialbook_img/images/share.png" >200</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="socialbook_img/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                          </div>
+                </div>
+
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>  <!--this is for the vertical 3 dot.-->
+                    </div>
+                    
+                    <p class="post-text">Lorem <span> dolor sit amet </span>
+                        consectetur adipisicing elit.
+                         Quam, voluptates inventore! 
+                         Nisi iste deserunt natus 
+                         temporibus non illo ducimus 
+                         vero, velit provident magni
+                          quos assumenda sint! Quidem 
+                          illo rem consectetur! <a href="#">#link for that</a>
+                          <a href="#">#another link</a></p>
+                          <img src="socialbook_img/images/feed-image-4.png" class="post-img">
+
+                          <div class="post-row">
+                            <div class="actity-icons">
+                                <div><img src="socialbook_img/images/like-blue.png" >120</div>
+                                <div><img src="socialbook_img/images/comments.png" >40</div>
+                                <div><img src="socialbook_img/images/share.png" >200</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="socialbook_img/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                          </div>
+                </div>
+
+
+
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="socialbook_img/images/profile-pic.png">
+                            <div>
+                                <p>John Nicholson</p>
+                               <span>June 24 2021, 13:40 pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>  <!--this is for the vertical 3 dot.-->
+                    </div>
+                    
+                    <p class="post-text">Lorem <span> dolor sit amet </span>
+                        consectetur adipisicing elit.
+                         Quam, voluptates inventore! 
+                         Nisi iste deserunt natus 
+                         temporibus non illo ducimus 
+                         vero, velit provid <a href="#">#link for that</a>
+                          <a href="#">#another link</a></p>
+                          <img src="socialbook_img/images/feed-image-5.png" class="post-img">
+
+                          <div class="post-row">
+                            <div class="actity-icons">
+                                <div><img src="socialbook_img/images/like-blue.png" >120</div>
+                                <div><img src="socialbook_img/images/comments.png" >40</div>
+                                <div><img src="socialbook_img/images/share.png" >200</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="socialbook_img/images/profile-pic.png" ><i class="fa-solid fa-caret-down"></i>
+                            </div>
+                          </div>
+                </div>
+                <button type="button" class="load-more-btn">Load More</button>
+
+
+
+
+
+                
+
+
+
+
+            </div>
+            
+        <!-- ------------------right-sidebar---------------------> 
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p><!--in there to look attractive ,for that we use the location symbol for that open the website font awesome link="https://fontawesome.com/" and apply it inside the head(line nbr 7,81) tag a javascript code that copied from the fontawesome\yourkits\somealpha numeric numbers click it and copy it.-->
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>22</h3>
+                        <span>June</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Mobile Marketing</h4>
+                        <p><i class="fa-solid fa-location-dot"></i>Wilson Tech Park</p> <!-- the i tag is used for denoting the location symbol from icons\search\locations line 69,7-->
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+
+
+                <div class="sidebar-title">
+                    <h4>Advertisment</h4>
+                    <a href="#">Close</a>
+                </div>
+                <img src="socialbook_img/images/advertisement.png" class="sidebar-ads">
+
+                <div class="sidebar-title">
+                    <h4>Conversation</h4>
+                    <a href="#">Hide Chat</a>
+                </div>
+
+                <div class="online-list">
+                    <div class="online"><img src="socialbook_img/images/member-1.png" ></div>
+                    <p>Alison Mina</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online"><img src="socialbook_img/images/member-2.png" ></div>
+                    <p>Jacson Aston</p>
+                </div>
+                
+                <div class="online-list">
+                    <div class="online"><img src="socialbook_img/images/member-3.png" ></div>
+                    <p>Samona Rose</p>
+                </div>
+               
+                
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy;Copyright 2021 - socialbook</p>
+        </div>
+        <script src="script.js"></script><!-- it is the connection to external javascript file named as script.js-->
+        <script>
+            const element=document.querySelector("#settings-menu");
+            const btnImg=document.querySelector("#btn-img");
+            btnImg.addEventListener("click",()=>{
+                // element.classList.remove("Settings-menu");
+                element.classList.toggle("settings-menu-height");
+            })
+            
+        </script>
+    </bodY>
+</html>
